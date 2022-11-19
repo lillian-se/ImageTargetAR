@@ -61,7 +61,7 @@ async function init() {
   scene.add(mesh);
   
   // setup the image target
-  const url = "../assets/cat.jpg";
+  const url = "cat.jpg";
   const imgBitmap = await getImageBitmap(url);
 //   console.log(imgBitmap)
 
